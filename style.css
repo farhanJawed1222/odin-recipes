@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #ececec;
+}
+
+/* home page */
+
+.main-content{
+    max-width: 600px;
+    padding:24px;
+    margin:12px auto;
+}
+
+.main-heading,
+.link-list{
+    padding: 22px;
+    margin: 10px;;
+}
+.main-heading{
+    font-size:32px;
+    font-weight:bold;
+    background-color: #142d4c;
+    color:white;
+    text-align: center;
+}
+
+.link-list{
+    background-color:#9fd3c7;
+    list-style: none;
+}
+
+.recipe{
+    line-height:60px;
+    
+}
+
+.recipe a{
+    display:inline-block;
+    font-size:22px;
+    padding: 10px;
+    text-decoration:none;
+    color:#141010;
+}
+
