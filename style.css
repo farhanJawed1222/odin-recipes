@@ -3,6 +3,7 @@
     padding:0px;
     box-sizing: border-box;
     font-family:'Courier New', Courier, monospace;
+    line-height:1.5;
 }
 
 body{
@@ -20,7 +21,7 @@ body{
 .main-heading,
 .link-list{
     padding: 22px;
-    margin: 10px;;
+    margin: 10px;
 }
 .main-heading{
     font-size:32px;
@@ -36,14 +37,12 @@ body{
 }
 
 .recipe{
-    line-height:60px;
-    
+    margin-bottom:16px;
 }
-
 .recipe a{
     display:inline-block;
     font-size:22px;
-    padding: 10px;
+    padding: 18px;
     text-decoration:none;
     color:#141010;
 }
