@@ -54,7 +54,7 @@ body {
 /*  recipe pages styling */
 
 .recipe-page {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0px auto;
 }
 
@@ -80,6 +80,12 @@ body {
 .recipe-section{
     margin-bottom:32px;
 }
+
+.section-heading,
+.description{
+    border-radius:15px;
+}
+
 .section-heading {
     margin-bottom: 12px;
 }
@@ -99,13 +105,11 @@ body {
 }
 
 .recipe-list {
-    list-style: none;
+    padding: 14px;
 }
 
 .recipe-list li {
-    margin-bottom: 6px;
-    /* text-align: justify; */
-    padding: 8px;
+    margin-bottom: 14px;
 }
 
 .homepage-link a {
