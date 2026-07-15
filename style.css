@@ -29,11 +29,13 @@ body {
     font-weight: bold;
     background-color: #142d4c;
     color: white;
+    border-bottom: 7px solid #9fd3c7;
     text-align: center;
 }
 
 .link-list {
     background-color: #9fd3c7;
+    border:3px solid #142d4c;
     list-style: none;
 }
 
@@ -49,7 +51,7 @@ body {
     color: #141010;
 }
 
-/* first recipe styling(biryani.html) */
+/*  recipe pages styling */
 
 .recipe-page {
     max-width: 600px;
