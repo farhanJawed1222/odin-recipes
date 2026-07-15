@@ -1,49 +1,114 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
-    line-height:1.5;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
 }
 
-body{
+body {
     background-color: #ececec;
 }
 
 /* home page */
 
-.main-content{
+.main-content {
     max-width: 600px;
-    padding:24px;
-    margin:12px auto;
+    padding: 24px;
+    margin: 12px auto;
 }
 
 .main-heading,
-.link-list{
+.link-list {
     padding: 22px;
     margin: 10px;
 }
-.main-heading{
-    font-size:32px;
-    font-weight:bold;
+
+.main-heading {
+    font-size: 32px;
+    font-weight: bold;
     background-color: #142d4c;
-    color:white;
+    color: white;
     text-align: center;
 }
 
-.link-list{
-    background-color:#9fd3c7;
+.link-list {
+    background-color: #9fd3c7;
     list-style: none;
 }
 
-.recipe{
-    margin-bottom:16px;
-}
-.recipe a{
-    display:inline-block;
-    font-size:22px;
-    padding: 18px;
-    text-decoration:none;
-    color:#141010;
+.recipe {
+    margin-bottom: 16px;
 }
 
+.recipe a {
+    display: inline-block;
+    font-size: 22px;
+    padding: 18px;
+    text-decoration: none;
+    color: #141010;
+}
+
+/* first recipe styling(biryani.html) */
+
+.recipe-page {
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.recipe-main-heading,
+.section-heading,
+.homepage-link {
+    background-color: #142d4c;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    border-bottom: 7px solid #9fd3c7;
+}
+
+
+
+.recipe-img img {
+    display: block;
+    max-width:320px;
+    height: auto;
+    margin: 20px auto;
+    border:2px solid #142d4c;
+}
+.recipe-section{
+    margin-bottom:32px;
+}
+.section-heading {
+    margin-bottom: 12px;
+}
+
+.description {
+    background-color: #9fd3c7;
+    color: #141010;
+    padding: 22px;
+    border:3px solid #142d4c;
+}
+
+
+.description h3 {
+    margin: 12px;
+    text-align: center;
+
+}
+
+.recipe-list {
+    list-style: none;
+}
+
+.recipe-list li {
+    margin-bottom: 6px;
+    /* text-align: justify; */
+    padding: 8px;
+}
+
+.homepage-link a {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
