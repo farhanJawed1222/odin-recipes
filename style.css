@@ -55,7 +55,7 @@ body {
 
 .recipe-page {
     max-width: 800px;
-    margin: 0px auto;
+    margin:  auto;
 }
 
 .recipe-main-heading,
@@ -72,13 +72,15 @@ body {
 
 .recipe-img img {
     display: block;
-    max-width:320px;
-    height: auto;
+    /* max-width:320px;
+    height: auto; */
     margin: 20px auto;
     border:2px solid #142d4c;
 }
 .recipe-section{
-    margin-bottom:32px;
+    margin-bottom: 32px;
+    margin-left: 12px;
+    margin-right:12px;
 }
 
 .section-heading,
